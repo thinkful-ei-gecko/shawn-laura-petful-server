@@ -1,52 +1,52 @@
 const cats = [
   {
-    imageURL:'https://assets3.thrillist.com/v1/image/2622128/size/tmg-slideshow_l.jpg', 
-    imageDescription: 'Orange bengal cat with black stripes lounging on concrete.',
-    name: 'Fluffy',
-    sex: 'Female',
-    age: 1,
-    breed: 'Bengal',
-    story: 'Thrown on the street'
-  },
-  {
-    imageURL:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfzvA8AjD-qIFjrok23ymyGV3iEFOV_AMm8-qhEkmx9NHxqx3p', 
-    imageDescription: 'White cat with black circles around eyes, looking very dissapointed',
-    name: 'Grumpy',
-    sex: 'Female',
-    age: 2,
-    breed: 'Internet Legend',
-    story: 'Left previous home after she had enough of her previous owners nonsense'
-  },
-  {
-    imageURL:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHVYWzsvflgVNFSg2kiFxVaYk8nhyFrfDCfSecZiUyeJE4Ot9g', 
-    imageDescription: 'White cat with a melon helmet.',
-    name: 'Melon-chan',
-    sex: 'Female',
-    age: 3,
-    breed: 'Cat racecar driver',
-    story: 'Melon-chan is looking for a retirement home after a storied career'
-  },
-  {
-    imageURL:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfUrLVlj4kBKx6qzOsmrA1BgJ_5WiH_jXZB5AXsVke46xLOPaQ', 
-    imageDescription: 'Scientist cat with black glasses, white fur, and a poppin bow tie.',
-    name: 'Catbert Einstein',
+    imageURL:'https://purr.objects-us-east-1.dream.io/i/murphycatnip.jpeg', 
+    imageDescription: 'Domestic Shorthair sitting with flowers',
+    name: 'Murphy',
     sex: 'Male',
     age: 4,
-    breed: 'Science Kitty',
-    story: 'After publishing his phd, he started his professorship at the local university and is looking for a place to crash'
+    breed: 'Domestic Shorthair ',
+    story: `Loves plants, and eating his owner's houseplants`
   },
   {
-    imageURL:'http://cdn1.litlepups.net/resize/2019/01/03/small-not-cat-urls-txt-at-master-viosey-github-pic-pictures-180-cute-white-kitten.jpg', 
-    imageDescription: 'White cat with perfectly normal eyes.',
-    name: 'Derpo',
+    imageURL:'https://purr.objects-us-east-1.dream.io/i/Vzzum.jpg', 
+    imageDescription: 'Two gray cats stare at the camera',
+    name: 'Buzz & Tucker',
     sex: 'Male',
-    age: 5,
-    breed: 'Derp',
-    story: 'Derpo started running around in circles at the park and cant find his way home.'
+    age: 1,
+    breed: 'Russian Blue',
+    story: 'Highly curious and inseperable.  Extremely smart'
   },
   {
-    imageURL:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGXAQXRhA5XKkN9J77zXYe1hYrkhquX0uMl-_MuYqXChNtgdM-', 
-    imageDescription: 'White and grey cat halfway though your window.',
+    imageURL:'https://purr.objects-us-east-1.dream.io/i/2PZwY.jpg', 
+    imageDescription: 'White cat with one blue and one green eye',
+    name: 'Ameranth',
+    sex: 'Female',
+    age: 3,
+    breed: 'American Shorthair',
+    story: 'She has heterochromia; the previous owner had OCD and did not like the asymmetry'
+  },
+  {
+    imageURL:'https://purr.objects-us-east-1.dream.io/i/bqzJ9.jpg', 
+    imageDescription: 'Gray and white cat at lounges in a chair',
+    name: 'Shelby',
+    sex: 'Female',
+    age: 4,
+    breed: 'American Shorthair',
+    story: 'Named after Carroll Shelby, she is unbelievably quick.  She loves to run.' 
+  },
+  {
+    imageURL:'https://purr.objects-us-east-1.dream.io/i/dexter.jpg', 
+    imageDescription: 'Orange tabby with arms outstretched',
+    name: 'Chad',
+    sex: 'Male',
+    age: 6,
+    breed: 'Orange Tabby',
+    story: 'Chad loves to hang out in trees.  His previous owner got in trouble with the fire department after she called one too many times asking for their help in getting him down.'
+  },
+  {
+    imageURL:'https://purr.objects-us-east-1.dream.io/i/dscn9930.jpg', 
+    imageDescription: 'Calico looks',
     name: 'Home Invasion-kun',
     sex: 'Male',
     age: 6,
@@ -54,40 +54,40 @@ const cats = [
     story: 'Hes already in your home, just accept it'
   },
   {
-    imageURL:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFywrVNlmOiIeRndBxh7pPi81jQ93nSz1pm_PAkRvwvj7RY_U', 
-    imageDescription: 'Black cat with a starched collar and a neck tie that perfectly matches his golden eyes.',
-    name: 'Boss Cat',
+    imageURL:'https://purr.objects-us-east-1.dream.io/i/DOjFh.jpg', 
+    imageDescription: 'White kitten with blue eyes',
+    name: 'Tiny Tim',
     sex: 'Male',
-    age: 7,
-    breed: 'Black Cat',
-    story: 'Yeah, so hes going to need you to work this Saturday and on an unrelated note, borrow car'
+    age: .3,
+    breed: 'Ragdoll',
+    story: 'While small now, this Ragdoll will grow quite large.  He loves sitting on laps.'
   },
   {
-    imageURL:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT9UQ2F8EsT6rrhIflDYla1ngkIIrYUmgRpQAelIRj1plHLDx5HA', 
-    imageDescription: 'Orange bengal cat that is staring down your yogurt.',
+    imageURL:'https://purr.objects-us-east-1.dream.io/i/GGQAB.jpg', 
+    imageDescription: 'White adult cat enjowing flowers',
     name: 'Cheeky',
     sex: 'Female',
     age: 8,
-    breed: 'Glutun',
-    story: 'Dont mind her, just keeping an eye on your half finished yogurt. Her favorite is blueberry'
+    breed: 'American Longhair',
+    story: 'In her past life she was a catnip addict.  Clean and sober now, she enjoys the finer things in life.'
   },
   {
-    imageURL:'https://i.pinimg.com/originals/ca/0b/c6/ca0bc6f1cc481d6dfaaadf8d66d0cbb6.jpg', 
-    imageDescription: 'Tan cat that is staring down your dinner.',
-    name: 'Asmati-kitty',
-    sex: 'Male',
-    age: 9,
-    breed: 'Glutun',
-    story: 'He litteraly ate his last home'
-  },
-  {
-    imageURL:'https://avatars0.githubusercontent.com/u/839187?v=4', 
-    imageDescription: 'Brown and white cat post sneeze.',
-    name: 'Sniffles',
+    imageURL:'https://purr.objects-us-east-1.dream.io/i/eyeem1464571602852.jpg', 
+    imageDescription: 'Black and white cat laying on the floor',
+    name: 'Cassie',
     sex: 'Female',
-    age: 10,
-    breed: 'Alergi-cat',
-    story: 'She was unfortunately was alergic to the cat at her previous residence'
+    age: 9,
+    breed: 'American Longhair',
+    story: 'Her previous owners built their dream home which had a minimalist theme.  Cassie does not like the cold concrete, but would love your soft warm carpets'
+  },
+  {
+    imageURL:'https://purr.objects-us-east-1.dream.io/i/LIkgf.jpg', 
+    imageDescription: 'Black and white kitten wearing a yellow ribbon as a bowtie.',
+    name: 'Dartanion',
+    sex: 'Male',
+    age: 1,
+    breed: 'American Shorthair',
+    story: 'All dressed up and nowhere to go.  This classy boy is a real gentlemen.  His previous owner grew tired of his bowtie collection.'
   }
 ]
 
