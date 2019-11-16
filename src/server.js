@@ -36,8 +36,11 @@ server.use(function (err, req, res, next) {
   });
 });
 
-server.listen(8080,()=>{
-  console.log('Serving on 8080');
+
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log(`Server listening on port ${ PORT }`);
 });
 
 module.exports = server
