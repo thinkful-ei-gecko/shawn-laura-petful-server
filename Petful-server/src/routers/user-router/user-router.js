@@ -41,19 +41,6 @@ userRouter
   });
 
 
-// userRouter
-//   .route('/')
-//   .get((req, res, next) => {
-//     FirstUser = userQ.first.value
-//     res.status(200).json(FirstUser)
-//   })  
-//   .delete((req, res, next) => {
-//     RemovedUser = userQ.dequeue()
-//     userQ.enqueue(RemovedUser)
-//     res.status(200).json(RemovedUser)
-//     return res.status(201).send(`${RemovedUser} removed from the queue.`)
-//   })
-
 
 module.exports = userRouter;
 module.exports.allUsersArr = allUsersArr;
