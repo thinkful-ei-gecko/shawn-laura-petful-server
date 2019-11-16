@@ -1,7 +1,7 @@
 
 # Petful Project - Thinkful EI34
 
-#### Live app:
+#### Live app: https://fathomless-plateau-19493.herokuapp.com/ 
 
 #### Link to repo: https://github.com/thinkful-ei-gecko/shawn-laura-petful-server.git
 
