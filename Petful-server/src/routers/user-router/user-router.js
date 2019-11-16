@@ -33,7 +33,6 @@ userRouter
       res.status(400).json('Name must be included in body')
     }
     const { full_name } = req.body;
-    console.log(full_name);
 
     userQ.enqueue(full_name);
     userArr.push(full_name);

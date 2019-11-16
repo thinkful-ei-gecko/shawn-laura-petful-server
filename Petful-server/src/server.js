@@ -1,5 +1,4 @@
 const userRouter = require('./routers/user-router/user-router')
-const allUsersRouter = require('./routers/user-router/all-users-router')
 const dogRouter = require('./routers/dog-router/dog-router')
 const catRouter = require('./routers/cat-router/cat-router')
 
@@ -16,7 +15,6 @@ server.use(helmet())
 
 
 server.use('/user', userRouter)
-server.use('/allusers', allUsersRouter) //CURRENTLY NOT FUNCTIONING
 server.use('/cat', catRouter)
 server.use('/dog', dogRouter)
 
