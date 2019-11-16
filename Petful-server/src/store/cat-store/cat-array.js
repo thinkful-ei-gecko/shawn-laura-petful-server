@@ -6,7 +6,7 @@ const cats = [
     sex: 'Male',
     age: 4,
     breed: 'Domestic Shorthair ',
-    story: `Loves plants, and eating his owner's houseplants`
+    story: 'Loves plants, and eating his owner\'s houseplants.'
   },
   {
     imageURL:'https://purr.objects-us-east-1.dream.io/i/Vzzum.jpg', 
@@ -15,7 +15,7 @@ const cats = [
     sex: 'Male',
     age: 1,
     breed: 'Russian Blue',
-    story: 'Highly curious and inseperable.  Extremely smart'
+    story: 'Highly curious and inseperable.  Extremely smart.'
   },
   {
     imageURL:'https://purr.objects-us-east-1.dream.io/i/2PZwY.jpg', 
@@ -24,7 +24,7 @@ const cats = [
     sex: 'Female',
     age: 3,
     breed: 'American Shorthair',
-    story: 'She has heterochromia; the previous owner had OCD and did not like the asymmetry'
+    story: 'She has heterochromia; the previous owner had OCD and did not like the asymmetry.'
   },
   {
     imageURL:'https://purr.objects-us-east-1.dream.io/i/bqzJ9.jpg', 
@@ -42,7 +42,7 @@ const cats = [
     sex: 'Male',
     age: 6,
     breed: 'Orange Tabby',
-    story: 'Chad loves to hang out in trees.  His previous owner got in trouble with the fire department after she called one too many times asking for their help in getting him down.'
+    story: 'Chad loves to hang out in trees. Previous owner got in trouble with the fire department after calling one too many times for their help to get him down.'
   },
   {
     imageURL:'https://purr.objects-us-east-1.dream.io/i/dscn9930.jpg', 
@@ -51,7 +51,7 @@ const cats = [
     sex: 'Male',
     age: 6,
     breed: 'Invasive',
-    story: 'Hes already in your home, just accept it'
+    story: 'He is already in your home, just accept it.'
   },
   {
     imageURL:'https://purr.objects-us-east-1.dream.io/i/DOjFh.jpg', 
@@ -60,7 +60,7 @@ const cats = [
     sex: 'Male',
     age: .3,
     breed: 'Ragdoll',
-    story: 'While small now, this Ragdoll will grow quite large.  He loves sitting on laps.'
+    story: 'Very small now, but this Ragdoll will grow quite large.  He loves sitting on laps.'
   },
   {
     imageURL:'https://purr.objects-us-east-1.dream.io/i/GGQAB.jpg', 
@@ -78,7 +78,7 @@ const cats = [
     sex: 'Female',
     age: 9,
     breed: 'American Longhair',
-    story: 'Her previous owners built their dream home which had a minimalist theme.  Cassie does not like the cold concrete, but would love your soft warm carpets'
+    story: 'Previous owners had a home with a minimalist theme. She did not like the cold concrete, but would love your soft warm carpets.'
   },
   {
     imageURL:'https://purr.objects-us-east-1.dream.io/i/LIkgf.jpg', 
@@ -87,8 +87,8 @@ const cats = [
     sex: 'Male',
     age: 1,
     breed: 'American Shorthair',
-    story: 'All dressed up and nowhere to go.  This classy boy is a real gentlemen.  His previous owner grew tired of his bowtie collection.'
+    story: 'All dressed up and nowhere to go.  This classy boy is a real gentleman.  His previous owner grew tired of his bowtie collection.'
   }
 ]
 
-module.exports = cats
+module.exports = cats;

@@ -6,7 +6,7 @@ const dogs = [
     sex: 'Male',
     age: 1,
     breed: 'Golden Retriever',
-    story: 'Owner Passed away'
+    story: 'Owner passed away.'
   },
   {
     imageURL: 'https://i.ytimg.com/vi/3PYLBEQYA00/hqdefault.jpg',
@@ -15,16 +15,16 @@ const dogs = [
     sex: 'Male',
     age: 2,
     breed: 'Weiner Dog',
-    story: 'His vegan lifestyle did not end up working out with his previous owner'
+    story: 'His vegan lifestyle did not end up working out with his previous owner.'
   },
   {
     imageURL: 'https://i.redd.it/1oytjugo5nax.png',
-    imageDescription: 'A chihuahua with THICC eyebrows.',
+    imageDescription: 'A chihuahua with THICK eyebrows.',
     name: 'Brow-ser',
     sex: 'Male',
     age: 3,
     breed: 'Chihuahua',
-    story: 'Hes just looking for love'
+    story: 'He is just looking for love.'
   },
   {
     imageURL: 'https://www.bestfunnies.com/wp-content/uploads/2012/01/Funny-Dogs-Funny-Dog-Picture-13-FunnyPica.com_.jpg',
@@ -33,7 +33,7 @@ const dogs = [
     sex: 'Male',
     age: 4,
     breed: 'Chihuahua',
-    story: 'Hes in between jobs at the moment and needed to downgrade his rent'
+    story: 'He is in between jobs at the moment and needed to downgrade his rent.'
   },
   {
     imageURL: 'https://steemitimages.com/DQmbaP5UJu7MYwAZFQgmHjgK7d5syHxdFuJvZt9UQKjVGS1/smile1.jpg',
@@ -42,7 +42,7 @@ const dogs = [
     sex: 'Female',
     age: 5,
     breed: 'German Shepherd',
-    story: 'She was kicked out of her old place for eating an entire months worth of antidepressants medication'
+    story: 'She was kicked out of her old place for eating an entire month\'s worth of antidepressant medication.'
   },
   {
     imageURL: 'https://thiswaycome.com/wp-content/uploads/2017/12/dog-clipins-e1512123334106.jpg',
@@ -51,7 +51,7 @@ const dogs = [
     sex: 'Female',
     age: 6,
     breed: '???',
-    story: 'The humidity at her previous residence was unbearable and is looking to move somewhere with a dry climate'
+    story: 'The humidity at her previous residence was unbearable and she wants to move somewhere with a dry climate.'
   },
   {
     imageURL: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQubZiGpV42VdHdpPqkhZVaoagbxKFDO2ZIobIAkpQAWGNz0tH1uQ',
@@ -60,7 +60,7 @@ const dogs = [
     sex: 'Male',
     age: 7,
     breed: 'Terrier',
-    story: 'Hes on a cross country tour and needs a place to crash'
+    story: 'He is on a cross country tour and needs a place to crash.'
   },
   {
     imageURL: 'https://www.cartalk.com/sites/default/files/blogs/backseatdrivers/6935431262_b071141dd1_b.jpg',
@@ -69,7 +69,7 @@ const dogs = [
     sex: 'Male',
     age: 8,
     breed: 'Italian Greyhound',
-    story: 'Hes had a hard time ever since he retired from the army, had a PTSD episode with his owner'
+    story: 'He has had a hard time ever since he retired from the army. Had a PTSD episode with his owner.'
   },
   {
     imageURL: 'https://i.ytimg.com/vi/h-z1RZYyvTM/hqdefault.jpg',
@@ -78,7 +78,7 @@ const dogs = [
     sex: 'Male',
     age: 9,
     breed: 'American Staffordshire Terrier',
-    story: 'He scared his previous owner by waking them up with his killer smile'
+    story: 'He scared his previous owner by waking them up with his killer smile.'
   },
   {
     imageURL: 'https://stunningfun.com/uploads/posts/2016-10/1476874230_23.jpg',
@@ -87,7 +87,7 @@ const dogs = [
     sex: 'Male',
     age: 10,
     breed: 'Skele-dog',
-    story: 'Too spooky 4 them'
+    story: 'Too spooky 4 them.'
   }
 ]
 
