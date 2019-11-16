@@ -64,7 +64,7 @@ const cats = [
   },
   {
     imageURL:'https://purr.objects-us-east-1.dream.io/i/GGQAB.jpg', 
-    imageDescription: 'White adult cat enjowing flowers',
+    imageDescription: 'White adult cat enjoying flowers',
     name: 'Cheeky',
     sex: 'Female',
     age: 8,

@@ -1,10 +1,10 @@
-const npcs = [
+const users = [
   'Jake the Snake',
   'Kevin Flynn',
   'Inigo Montoya',
   'Kirk Lazarus',
   'Randle Patrick McMurphy',
-  'Daniel Plainview'
+  'Daniel Plainview',
 ]
 
-module.exports = npcs
+module.exports = users

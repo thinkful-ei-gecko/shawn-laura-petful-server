@@ -33,6 +33,14 @@ class Q {
     }
     return node.value;
   }
+  toArr(q) {
+    let arr = [];
+    while (q.first !== null) {
+      arr.push(q.first.value);
+      q.first = q.first.next;
+    }
+    return arr;
+}
 }
 
 module.exports = Q
