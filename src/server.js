@@ -1,22 +1,25 @@
-const userRouter = require('./routers/user-router/user-router')
-const dogRouter = require('./routers/dog-router/dog-router')
-const catRouter = require('./routers/cat-router/cat-router')
-
-
-require('dotenv').config()
 const express = require('express');
+//const morgan = require('morgan');
 const cors = require('cors');
 const helmet = require('helmet');
+const { NODE_ENV } = require('./config');
+
+const userRouter = require('./routers/user-router/user-router');
+const dogRouter = require('./routers/dog-router/dog-router');
+const catRouter = require('./routers/cat-router/cat-router');
+
+require('dotenv').config();
+
 const server = express();
+
 server.use(cors());
+server.use(helmet());
 
-server.use(express.json())
-server.use(helmet())
+server.use(express.json());
 
-
-server.use('/user', userRouter)
-server.use('/cat', catRouter)
-server.use('/dog', dogRouter)
+server.use('/api/user', userRouter);
+server.use('/api/cat', catRouter);
+server.use('/api/dog', dogRouter);
 
 
 // Catch-all 404
@@ -38,9 +41,9 @@ server.use(function (err, req, res, next) {
 
 
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8000;
 server.listen(PORT, () => {
-    console.log(`Server listening on port ${ PORT }`);
+  console.log(`Server listening on port ${ PORT }`);
 });
 
-module.exports = server
+module.exports = server;

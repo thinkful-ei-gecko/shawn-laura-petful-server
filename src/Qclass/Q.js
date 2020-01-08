@@ -22,6 +22,7 @@ class Q {
     }
     this.last = node;
   }
+
   dequeue(){
     if(this.first === null){
       return;
@@ -33,14 +34,16 @@ class Q {
     }
     return node.value;
   }
-  toArr(q) {
+
+  toArr() {
     let arr = [];
-    while (q.first !== null) {
-      arr.push(q.first.value);
-      q.first = q.first.next;
+    let node = this.first;
+    while (node !== null) {
+      arr.push(node.value);
+      node = node.next;
     }
     return arr;
-}
+  }
 }
 
-module.exports = Q
+module.exports = Q;
