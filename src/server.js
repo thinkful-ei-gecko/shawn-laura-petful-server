@@ -12,7 +12,8 @@ require('dotenv').config();
 
 const server = express();
 
-server.use(cors({origin: CLIENT_ORIGIN}));
+//server.use(cors({origin: CLIENT_ORIGIN}));
+server.use(cors());
 server.use(helmet());
 
 server.use(express.json());
