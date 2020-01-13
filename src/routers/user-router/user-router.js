@@ -18,21 +18,21 @@ userRouter
   .route('/')
   .get((req, res, next) => {
     let adopters = userQ.toArr();
-    console.log(adopters);
     res.status(200).json(adopters);
   })
   //remove first user from queue and send to back of queue
   .patch((req, res, next) => {
     let recycledUser = userQ.dequeue();
     userQ.enqueue(recycledUser);
-    res.status(200).json(recycledUser);
+    let updatedAdopters = userQ.toArr();
+    res.status(200).json(updatedAdopters);
   })
   //remove user from queue
   .delete((req, res, next) => {
     let deletedUser = userQ.dequeue();
     let updatedAdopters = userQ.toArr();
-    console.log(updatedAdopters);
-    res.status(200).json(updatedAdopters);
+    let responseData = [deletedUser, updatedAdopters];
+    res.status(200).json(responseData);
   })
   //place new adopter in queue
   .post(jsonParser, (req, res) => {

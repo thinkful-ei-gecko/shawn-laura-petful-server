@@ -3,8 +3,8 @@ const users = [
   'Kevin Flynn',
   'Inigo Montoya',
   'Kirk Lazarus',
-  'Randle Patrick McMurphy',
-  'Daniel Plainview',
-]
+  'R. P. McMurphy',
+  'Daniel Plainview'
+];
 
-module.exports = users
+module.exports = users;

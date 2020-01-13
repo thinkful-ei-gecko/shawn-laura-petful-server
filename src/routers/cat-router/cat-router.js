@@ -1,28 +1,30 @@
-const express = require('express')
-const xss = require('xss')
-const jsonBodyParser = express.json()
-const catArr = require('../../store/cat-store/cat-array')
-const randomizer = require('../../randomizer/randomizer')
-const Q = require('../../Qclass/Q')
+const express = require('express');
+//const xss = require('xss');
+//const jsonBodyParser = express.json();
+//const randomizer = require('../../randomizer/randomizer')
 
-const catRouter = express.Router()
-const catQ = new Q()
+const catArr = require('../../store/cat-store/cat-array');
+const Q = require('../../Qclass/Q');
 
-let randomOrderCatArr = randomizer(catArr)
+const catRouter = express.Router();
 
-randomOrderCatArr.forEach(cat => catQ.enqueue(cat))
+//let randomOrderCatArr = randomizer(catArr);
+//randomOrderCatArr.forEach(cat => catQ.enqueue(cat));
 
+const catQ = new Q();
+catArr.forEach(cat => catQ.enqueue(cat));
 
 catRouter
   .route('/')
   .get((req, res, next) => {
-    FirstCat = catQ.first.value
-    res.status(200).json(FirstCat)
+    let firstCat = catQ.first.value;
+    res.status(200).json(firstCat);
   })
   .delete((req, res, next) => {
-    AdoptedCat = catQ.dequeue()
-    catQ.enqueue(AdoptedCat)
-    res.status(200).json(AdoptedCat)
-  })
+    let adoptedCat = catQ.dequeue();
+    let nextCat = catQ.first.value;
+    catQ.enqueue(adoptedCat); // as if new animals were coming into shelter
+    res.status(200).json(nextCat);
+  });
 
-module.exports = catRouter
+module.exports = catRouter;
